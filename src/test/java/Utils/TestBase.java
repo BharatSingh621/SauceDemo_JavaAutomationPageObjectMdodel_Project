@@ -5,7 +5,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 
-public class TestBase {
+public class TestBase 
+{
 
 	 	protected WebDriver driver;
 
@@ -16,7 +17,6 @@ public class TestBase {
 	        driver.manage().window().maximize();
 	        driver.get("https://www.saucedemo.com/");
 	    }
-
 	    
 	    
 	    @AfterMethod
